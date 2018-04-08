@@ -1,0 +1,44 @@
+.container{
+    background-color: #f5ffd3;
+    border-radius: 15px;
+    width: 1000px;
+    margin-top: 3%;
+    box-shadow: 0px 1px 57px yellow;
+
+
+}
+
+.small{
+    color: gray;
+}
+
+@media (max-width: 1000px) {
+    .container {
+        background-color: antiquewhite;
+        border-radius: 15px;
+        width: 500px;
+        margin-top: 3%;
+        box-shadow: 0px 1px 57px green;
+    }
+}
+
+@media (max-width: 768px) {
+    .container {
+        background-color: antiquewhite;
+        border-radius: 15px;
+        width: 400px;
+        margin-top: 3%;
+        box-shadow: 0px 1px 57px darkgrey;
+    }
+}
+
+
+@media (max-width: 568px) {
+    .container {
+        background-color: bisque;
+        border-radius: 15px;
+        width: 300px;
+        margin-top: 3%;
+        box-shadow: 0px 1px 57px cyan;
+    }
+}
